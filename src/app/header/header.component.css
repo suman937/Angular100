@@ -25,25 +25,7 @@
 .ekart--bottom--bar{
     display: flex;
 }
-.ekart--search-bar{
-    padding: 0 3vh;
-    
-}
-.ekart-search-box{
-    width: 170px;
-    height: 33px;
-    border: none;
-    background-color: #efefef;
-    padding: 2px 10px;
-}
 
-.ekart--search--btn{
-    width: 33px;
-    height: 33px;
-    border: none;
-    background-color: #efefef;
-    margin-left: 0px;
-}
 .btn{
     padding: 15px 25px;
     border: none;
