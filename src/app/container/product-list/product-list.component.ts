@@ -225,7 +225,7 @@ export class ProductListComponent {
       slug: "nike-renew-run"
     },
     {
-      id: 16,
+      id: 15,
       name: "Bridgport Advice",
       description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       brand: "HUSHPUPPIES",
@@ -236,11 +236,11 @@ export class ProductListComponent {
       price: 30,
       is_in_inventory: false,
       items_left: 4,
-      imageURL: "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/BRIDGPORT_ADVICE-BLACK_1_800x800.jpg?v=1576567903",
+      imageURL: "https://th.bing.com/th/id/OIP.DbUBJjfQqFRA4cHoDBF30AHaHa?w=197&h=197&c=7&r=0&o=5&pid=1.7",
       slug: "bridgport-advice"
     },
     {
-      id: 15,
+      id: 16,
       name: "Beck",
       description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       brand: "HUSHPUPPIES",
@@ -252,7 +252,7 @@ export class ProductListComponent {
       discountPrice:45,
       is_in_inventory: true,
       items_left: 5,
-      imageURL: "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/Beck-Black_800x800.jpg",
+      imageURL: "https://th.bing.com/th/id/OIP.xm9LSh3viCHMEN0um3Bf_QHaHa?w=199&h=200&c=7&r=0&o=5&pid=1.7",
       slug: "beck"
     },
     {
@@ -267,7 +267,7 @@ export class ProductListComponent {
       price: 70,
       is_in_inventory: true,
       items_left: 6,
-      imageURL: "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/fester-Tan_800x800.jpg?v=1575537531",
+      imageURL: "https://th.bing.com/th/id/OIP.PVclqTElLGA5q5jY3T_NgAHaFL?w=278&h=195&c=7&r=0&o=5&pid=1.7",
       slug: "fester"
     },
     {
@@ -282,7 +282,7 @@ export class ProductListComponent {
       price: 75,
       is_in_inventory: true,
       items_left: 7,
-      imageURL: "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/PIXEL-TAN_800x800.jpg?v=1577420506",
+      imageURL: "https://th.bing.com/th/id/OIP.T510ojIqe6gluopackLauAHaHa?w=190&h=190&c=7&r=0&o=5&pid=1.7",
       slug: "pixel"
     },
     {
