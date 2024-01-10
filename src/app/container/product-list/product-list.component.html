@@ -1,4 +1,4 @@
 <div class="ekart--products--container">
-    <app-product *ngFor="let prod of products" [product]="prod"> </app-product>
+    <app-product *ngFor="let prod of products; let i = index" [product]="prod" [index]="i"></app-product>
     
 </div>

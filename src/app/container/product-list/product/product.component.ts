@@ -6,8 +6,8 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./product.component.css']
 })
 export class ProductComponent {
-  @Input()
-  product:{
+  @Input() 
+    product:{
     id:number,
     name:string,
     description:string,
@@ -22,6 +22,7 @@ export class ProductComponent {
     items_left:number,
     imageURL:string,
     slug:string
-  };
+    };
+  @Input() index: number;
 
 }
