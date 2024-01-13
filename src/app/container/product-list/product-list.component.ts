@@ -536,6 +536,13 @@ export class ProductListComponent {
   totalProductCount:number= this.products.length;
   totalProductInStock:number=this.products.filter(p=>p.is_in_inventory=== true).length;
   totalProductOutOfStock:number=this.products.filter(p=>p.is_in_inventory=== false).length;
+
+  selectedFilterRadioButton:string ='all';
+
+  onFilterChanged(value:string ){
+    
+    this.selectedFilterRadioButton = value;
+  }
   
 
 }
