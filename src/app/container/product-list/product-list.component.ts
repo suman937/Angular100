@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'product-list',
@@ -543,6 +543,7 @@ export class ProductListComponent {
     
     this.selectedFilterRadioButton = value;
   }
-  
+  @Input()
+  searchText:string='';
 
 }

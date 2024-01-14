@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 export class ContainerComponent {
    listOfStirng:string[]=['Mark','Steve','Mery','John','Sarah'];
 
+   searchText:string = ''; 
+
+   setSearchText(value:string){
+    this.searchText = value;
+   }
+
 }

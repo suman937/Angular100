@@ -12,9 +12,9 @@
  <input (input)="onNameChange($event)" [attr.aria-hidden]=""> <br>
 
 <p>name = {{name}} </p> -->
-<app-search></app-search>
+<app-search (searchTextChanged)="setSearchText($event)"></app-search>
 <!-- <div *ngFor="let item of listOfStirng">
     <p>Current element of the element is: {{item}} </p>
 </div> -->
-<product-list></product-list>
+<product-list [searchText]="searchText"></product-list>
 </div>
