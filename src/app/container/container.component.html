@@ -16,5 +16,6 @@
 <!-- <div *ngFor="let item of listOfStirng">
     <p>Current element of the element is: {{item}} </p>
 </div> -->
-<product-list [searchText]="searchText"></product-list>
+<product-list [searchText]="searchText" #productListComponent></product-list>
+<product-detail *ngIf="productListComponent.selectedProducts"></product-detail>
 </div>
